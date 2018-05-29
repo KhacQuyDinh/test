@@ -1,7 +1,16 @@
-from setuptools import setup
- 
-setup(
-    name='my-hello',    # This is the name of your PyPI-package.
-    version='0.1',      # Update the version number for new releases
-    scripts=['program'] # The name of your scipt, and also the command you'll be using for calling it
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="quy",
+    version="0.0.1",
+    author="moduledk",
+    author_email="moduledk@example.com",
+    description="add func",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/ModuledkQuy/test",
+    packages=setuptools.find_packages(),    
 )

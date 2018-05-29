@@ -1,0 +1,8 @@
+1. Write your script. [name_A]
+2. Add a setup script. scripts=[name_A] name=[file_name_to_install_with_pip]
+3. upload to PyPI: 
+python setup.py sdist bdist_wheel
+python setup.py register sdist upload
+
+4. install using pip:
+pip install ...
