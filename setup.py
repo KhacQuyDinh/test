@@ -4,8 +4,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="quy",
+    name="quydk",
     version="0.0.1",
+    
     author="moduledk",
     author_email="moduledk@example.com",
     description="add func",
